@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Assistant");
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+/* First section */
+
+.first-section {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.landing {
+  height: 550px;
+  background: #2f80ed;
+}
+
+.particles {
+  display: block;
+}
+
+.titleBox {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.titleBox .dVote {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.titleBox .line {
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: 0px;
+  border: 1px solid #fcfcfc;
+}
+
+.description {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  transform: translate(-50%, 0%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description .catch {
+  text-align: center;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 36px;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.cta-box {
+  position: absolute;
+  left: 50%;
+  top: 340px;
+  transform: translate(-50%, 0%);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.cta-box .button {
+  text-transform: none;
+  margin: 0px;
+  width: 450px;
+}
+
+.cta-box .button:hover {
+  color: #2f80ed;
+}
+
+/* Second section */
+
+.first-sec {
+  margin-top: 100px;
+}
+
+.second-sec {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.why-box {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-box .image {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.why-box .anon {
+  margin-bottom: 10px;
+}
+
+.why-box .security {
+  margin-bottom: 6px;
+}
+
+.why-box .title {
+  text-align: center;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 48px;
+
+  color: #333333;
+}
+
+.why-box .desc {
+  margin-top: 20px;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: justify;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #000000;
+}
+
+/* Third Section */
+
+.third-section {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.third-section {
+  height: 100%;
+  background-color: #ee6c4d;
+  text-align: center;
+}
+
+.third-section .title {
+  margin-top: 80px;
+  text-align: center;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 60px;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.third-section .button {
+  margin-top: 20px;
+  width: 250px;
+  height: 60px;
+  background: #2f80ed;
+  text-transform: none;
+  margin-bottom: 80px;
+}
+
+/* Fourth section */
+.fourth-section {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.fourth-section {
+  height: 100%;
+  background-color: #2f80ed;
+  text-align: center;
+}
+
+.fourth-section .title {
+  margin-top: 80px;
+  text-align: center;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 60px;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.fourth-section .video {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+/* Componens */
+
+.button {
+  width: 350px;
+  height: 60px;
+  background: #ee6c4d;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background: #ffffff;
+  color: #ee6c4d;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
