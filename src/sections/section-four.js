@@ -8,6 +8,16 @@ const SectionFour = props => {
     <div className="container fourth-section">
       <div className="row">
         <div className="twelwe columns">
+          <Particles
+            className="particles"
+            params={{
+              particles: {
+                number: { value: 75 },
+                size: { value: 3 },
+                line_linked: { distance: 250 }
+              }
+            }}
+          />
           <p className="title">Introduktion</p>
           <iframe
             width="560"

@@ -16,9 +16,13 @@ class SectionFive extends Component {
 
   render() {
     return (
-      <div>
-        <h2>Vote contract</h2>
-        <p>Vote: {this.state.statement}</p>
+      <div className="container fifth-section">
+        <div className="row">
+          <div className="twelwe columns">
+            <p className="title">Stem nu</p>
+            <p>{this.state.statement}</p>
+          </div>
+        </div>
       </div>
     );
   }
