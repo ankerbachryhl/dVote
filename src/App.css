@@ -106,16 +106,16 @@ body {
 }
 
 .why-box .image {
-  margin-bottom: 15px;
+  margin-bottom: 17px;
   position: relative;
 }
 
 .why-box .anon {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .why-box .security {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .why-box .title {
@@ -142,6 +142,15 @@ body {
   margin-right: auto;
 
   color: #000000;
+}
+
+.why-box .middleman-box {
+  margin-bottom: 0px;
+}
+
+.middleman {
+  height: 80px;
+  width: 80px;
 }
 
 /* Third Section */
@@ -185,7 +194,7 @@ body {
 }
 
 .fourth-section .particles {
-  height: 600px !important;
+  height: 800px !important;
 }
 
 .fourth-section {
@@ -219,7 +228,7 @@ body {
 
 .fifth-section {
   max-width: 100% !important;
-  width: 100%;
+  width: 80%;
   margin-top: 80px;
 }
 
@@ -255,6 +264,152 @@ body {
   text-align: center;
 }
 
+.votecon {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.voteAddBox {
+  width: 300px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addAgainstVote {
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 85px;
+}
+
+.votesAgainstText {
+  float: left;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 50px;
+  color: #333;
+  margin-left: 100px;
+}
+
+.votesForText {
+  float: left;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 50px;
+  color: #333;
+  margin-left: 100px;
+}
+
+.votecon p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.fifth-section .line {
+  width: 180px;
+  height: 0px;
+  border: 1px solid #333;
+  opacity: 0.8;
+  margin-top: 0px;
+}
+
+.dvote {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #333;
+}
+
+.errorMessage {
+  font-size: 20px !important;
+  color: #ee6c4d !important;
+}
+
+.statusMessage {
+  font-size: 20px !important;
+  color: #03b5aa !important;
+}
+
+/* FAQ */
+
+.faq {
+  text-align: justify !important;
+  margin: 0px;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.faq .question {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 30px;
+  color: #333;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.faq .title {
+  font-size: 40px !important;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 30px;
+  color: #333;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.faq .answer {
+  margin-top: 0px;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/*Footer */
+
+.all-footer {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.footer-box {
+  max-width: 100% !important;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  max-width: 100% !important;
+  width: 100%;
+  background-color: #222;
+  color: #fff !important;
+  height: 250px;
+  display: table;
+}
+
+.footer p {
+  color: #fff !important;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
 /* Componens */
 
 .button {
@@ -276,41 +431,17 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .button:hover {
   transform: scale(1.1);
   background: #ffffff;
-  color: #ee6c4d;
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button a:hover {
+  text-decoration: none;
+  color: #2f80ed;
 }

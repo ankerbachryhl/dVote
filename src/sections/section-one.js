@@ -25,7 +25,8 @@ const SectionOne = props => {
             </div>
             <div className="description">
               <p className="catch">
-                A distributed voting system <br /> living on the blockchain.
+                Et distribueret stemmesystem der <br /> lever på Ethereum
+                blockchain.
               </p>
             </div>
             <div className="cta-box">

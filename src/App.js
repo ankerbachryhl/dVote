@@ -9,25 +9,6 @@ import SectionThree from "./sections/section-three";
 import SectionFour from "./sections/section-four";
 import SectionFive from "./sections/section-five";
 
-const Home = props => {
-  return (
-    <div className="page-one">
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-    </div>
-  );
-};
-
-const dVote = () => {
-  return (
-    <div>
-      <SectionFour />
-      <SectionFive />
-    </div>
-  );
-};
-
 class App extends Component {
   render() {
     return (
